@@ -5,7 +5,19 @@
   background-image: url('../img/dog1.jpg');
 }
 
-@media screen and (min-resolution: 1dppx) {
+@media screen and (min-width: 1800px) and (min-resolution: 1dppx) and (orientation: portrait) {
+  #container {
+    background-image: url('../img/dog1.jpg');
+  }
+}
+
+@media screen and (min-width: 1800px) and (min-resolution: 2dppx) {
+  #container {
+    background-image: url('../img/dog1.jpg');
+  }
+}
+
+@media screen and (min-width: 1800px) and (min-resolution: 3dppx) {
   #container {
     background-image: url('../img/dog1.jpg');
   }
