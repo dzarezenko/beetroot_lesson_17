@@ -34,3 +34,9 @@
     background-image: url('../img/dog3.jpg');
   }
 }
+
+@supports (display: block) {
+  #container {
+    display: block;
+  }
+}
