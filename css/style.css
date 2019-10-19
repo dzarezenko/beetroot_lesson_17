@@ -35,8 +35,8 @@
   }
 }
 
-@supports (display: block) {
+@supports (display: flex) {
   #container {
-    display: block;
+    display: flex;
   }
 }
